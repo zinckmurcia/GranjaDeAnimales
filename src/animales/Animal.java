@@ -1,3 +1,17 @@
+/**
+ * Constructor de la clase Animal.
+ * Crea un animal a partir de su código, fecha de nacimiento, sexo y peso.
+ *
+ * @param codigo código identificativo del animal. Debe estar formado por 5
+ * caracteres alfanuméricos en minúscula.
+ * @param fechaNacimiento fecha de nacimiento del animal en formato ISO
+ * (yyyy-MM-dd).
+ * @param sexo sexo del animal. Debe ser 'M' para hembra o 'H' para macho.
+ * @param peso peso del animal en kilogramos. Debe ser mayor que 0.
+ * @throws IllegalArgumentException si el código no tiene un formato válido,
+ * si la fecha no es válida, si el sexo no es correcto o si el peso no es
+ * mayor que 0.
+ */
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
